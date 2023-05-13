@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "platformatic db start"
+  },
+  "devDependencies": {
+    "@fastify/auth": "^4.2.0",
+    "@platformatic/db-authorization": "^0.23.2",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0"
+  },
+  "dependencies": {
+    "@platformatic/sql-graphql": "^0.23.2",
+    "@platformatic/sql-mapper": "^0.23.2",
+    "platformatic": "^0.23.2"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=19"
+  }
+}
