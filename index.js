@@ -63,3 +63,5 @@ module.exports = async function (app) {
     ],
   });
 };
+
+module.exports[Symbol.for('skip-override')] = true;
