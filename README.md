@@ -4,7 +4,7 @@
 - `cp .env.sample .env`
 - `npx platformatic db migrations apply`
 - `npm start`
-- `curl -X 'GET' 'http://localhost:3042' -H 'accept: application/json'`
+- `curl -X 'GET' 'http://localhost:3042/posts' -H 'accept: application/json'`
 
 ## Output of the error:
 
